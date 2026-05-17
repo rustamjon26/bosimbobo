@@ -40,23 +40,26 @@ BRANCHES = [
         "name": "🥟 Bosim Bobo Somsa - Jizzax",
         "lat": 40.0992764,
         "lon": 67.9771123,
-        "phone": "+998 91 523 77 77",
-        "hours": "09:00 - 22:00",
+        "phone": "+998915236666",
+        "phone": "+998915237777",
+        "hours": "24/7",
     },
     {
         "id": "baliq",
         "name": "🐟 Bosim Bobo Baliq - Jizzax",
         "lat": 40.0958001,
         "lon": 67.9772222,
-        "phone": "+998 91 523 77 77",
-        "hours": "09:00 - 22:00",
+        "phone": "+998915236666",
+        "phone": "+998915237777",
+        "hours": "24/7",
     },
     {
         "id": "somsa_zomin",
         "name": "🥟 Bosim Bobo Somsa - Zomin",
         "lat": 39.787139,
         "lon": 68.391417,
-        "phone": "+998 91 523 77 77",
+        "phone": "+998915236666",
+        "phone": "+998915237777",
         "hours": "09:00 - 22:00",
     },
 ]
@@ -75,7 +78,8 @@ def build_keyboard() -> InlineKeyboardMarkup:
 def branch_details_message(branch: dict) -> str:
     return (
         f"📍 {branch['name']}\n"
-        f"📞 Telefon: {branch['phone']}\n"
+        "📞 Telefon: +998915237777\n"
+        "📞 Telefon: +998915236666\n"
         f"🕐 Ish vaqti: {branch['hours']}\n\n"
         "📌 Yuqoridagi lokatsiyani bosib yo'l qurishingiz mumkin!"
     )
